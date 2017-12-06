@@ -35,6 +35,9 @@ composer require --dev jungle-bay/telegram-bot-cli
 composer telegram-bot-cli getWebhookInfo -t 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
 ```
 
+### Docs
+See the complete docs in [here](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/readme.md).
+
 ### License
 
 This bundle is under the [MIT license](http://opensource.org/licenses/MIT). See the complete license in the file: [here](https://github.com/jungle-bay/telegram-bot-cli/blob/master/license.txt).
