@@ -68,8 +68,6 @@ class TelegramBotCLI {
 
             $padding->label(" <yellow>{$key}</yellow>")->result($command::getDescription());
         }
-
-        exit(1);
     }
 
 

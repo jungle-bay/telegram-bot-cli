@@ -3,7 +3,7 @@
 [![Travis CI](https://img.shields.io/travis/jungle-bay/telegram-bot-api.svg?style=flat)](https://travis-ci.org/jungle-bay/telegram-bot-api)
 [![Scrutinizer CI](https://img.shields.io/scrutinizer/g/jungle-bay/telegram-bot-api.svg?style=flat)](https://scrutinizer-ci.com/g/jungle-bay/telegram-bot-api)
 [![Codecov](https://img.shields.io/codecov/c/github/jungle-bay/telegram-bot-api.svg?style=flat)](https://codecov.io/gh/jungle-bay/telegram-bot-api)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/629ccaba-0a4e-4ea3-b0a4-63d053b5bf30.svg?style=flat)](https://insight.sensiolabs.com/projects/629ccaba-0a4e-4ea3-b0a4-63d053b5bf30)
+[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/cd33ddb0-5bd7-4025-a584-7e4dc36242b7.svg?style=flat)](https://insight.sensiolabs.com/projects/cd33ddb0-5bd7-4025-a584-7e4dc36242b7)
 
 This is CLI Utility for Telegram Bot.
 I decided not to include this package in the [main](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
