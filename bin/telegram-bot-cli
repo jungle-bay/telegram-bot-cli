@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * Team: jungle
+ * User: Roma Baranenko
+ * Contacts: <jungle.romabb8@gmail.com>
+ * Date: 05.12.17
+ * Time: 15:06
+ */
+
+require_once(__DIR__ . '/telegram-bot-cli.php');

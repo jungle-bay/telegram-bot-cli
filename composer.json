@@ -1,0 +1,60 @@
+{
+    "name": "jungle-bay/telegram-bot-cli",
+    "description": "CLI Utility for Telegram Bot",
+    "type": "library",
+    "keywords": [
+        "php",
+        "php-library",
+        "telegram",
+        "bot",
+        "cli"
+    ],
+    "homepage": "https://github.com/jungle-bay/telegram-bot-cli/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roma Baranenko",
+            "email": "jungle.romabb8@gmail.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/jungle-bay/telegram-bot-cli/issues/"
+    },
+    "require": {
+        "jungle-bay/telegram-bot-api": "^3.4.1",
+        "league/climate": "^3.2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "suggest": {
+        "jungle-bay/telegram-bot-shell": "This is mechanism for processing bot commands."
+    },
+    "bin": [
+        "bin/telegram-bot-cli"
+    ],
+    "autoload": {
+        "psr-4": {
+            "TelegramBotCLI\\": "src/TelegramBotCLI/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TelegramBotCLI\\Tests\\": "tests/TelegramBotCLI/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap vendor/autoload.php --filter",
+        "tests": "phpunit --bootstrap vendor/autoload.php tests"
+    },
+    "archive": {
+        "exclude": [
+            "*",
+            ".*",
+            "!bin/*",
+            "!src/*",
+            "!composer.json"
+        ]
+    }
+}
