@@ -10,7 +10,7 @@ I decided not to include this package in the [main](https://github.com/jungle-ba
 
 ### Prerequisites
 
-   - Add a tag to the composer.json file in telegram-bot-cli scripts.
+   - Add a tag to the ```composer.json``` file in telegram-bot-cli scripts.
 
 Example:
 ```json
@@ -36,6 +36,7 @@ composer telegram-bot-cli getWebhookInfo -t 123456:ABC-DEF1234ghIkl-zyx57W2v1u12
 ```
 
 ### Docs
+
 See the complete docs in [here](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/readme.md).
 
 ### License
