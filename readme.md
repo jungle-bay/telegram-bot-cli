@@ -1,11 +1,11 @@
 # Telegram Bot CLI
 
-[![Travis CI](https://img.shields.io/travis/jungle-bay/telegram-bot-api.svg?style=flat)](https://travis-ci.org/jungle-bay/telegram-bot-api)
-[![Scrutinizer CI](https://img.shields.io/scrutinizer/g/jungle-bay/telegram-bot-api.svg?style=flat)](https://scrutinizer-ci.com/g/jungle-bay/telegram-bot-api)
-[![Codecov](https://img.shields.io/codecov/c/github/jungle-bay/telegram-bot-api.svg?style=flat)](https://codecov.io/gh/jungle-bay/telegram-bot-api)
+[![Travis CI](https://img.shields.io/travis/jungle-bay/telegram-bot-cli.svg?style=flat)](https://travis-ci.org/jungle-bay/telegram-bot-cli)
+[![Scrutinizer CI](https://img.shields.io/scrutinizer/g/jungle-bay/telegram-bot-cli.svg?style=flat)](https://scrutinizer-ci.com/g/jungle-bay/telegram-bot-cli)
+[![Codecov](https://img.shields.io/codecov/c/github/jungle-bay/telegram-bot-cli.svg?style=flat)](https://codecov.io/gh/jungle-bay/telegram-bot-cli)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/cd33ddb0-5bd7-4025-a584-7e4dc36242b7.svg?style=flat)](https://insight.sensiolabs.com/projects/cd33ddb0-5bd7-4025-a584-7e4dc36242b7)
 
-This is CLI Utility for Telegram Bot.
+This is CLI Utility for Telegram Bot. <br />
 I decided not to include this package in the [main](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
 
 ### Prerequisites
