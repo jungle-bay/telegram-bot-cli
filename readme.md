@@ -22,6 +22,8 @@ composer require --dev jungle-bay/telegram-bot-cli
 php ./vendor/bin/telegram-bot-cli getWebhookInfo -t 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
 ```
 
+Out
+
 ```
 Get webhook info for %botname%
 
