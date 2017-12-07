@@ -6,7 +6,7 @@ The CLI is designed to simplify the development and monitoring of the [webhook](
 * **[Getting Started guide](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md)**
 * **[Commands reference](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md)**
     * **Commands:**
-        * **[getUpdates](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#1-get-updates.md)**
-        * **[setWebhook](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#2-set-webhook.md)**
-        * **[deleteWebhook](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#3-delete-webhook.md)**
-        * **[getWebhookInfo](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#4-get-webhook-info.md)**
+        * **[getUpdates](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#1-getupdates)**
+        * **[setWebhook](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#2-setwebhook)**
+        * **[deleteWebhook](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#3-deletewebhook)**
+        * **[getWebhookInfo](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/commands.md#4-getwebhookinfo)**
