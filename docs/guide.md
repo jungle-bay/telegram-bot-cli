@@ -20,22 +20,6 @@ Use
 php ./vendor/bin/telegram-bot-cli command [arguments]
 ```
 
-Or add a tag to the ```composer.json``` project file in telegram-bot-cli scripts.
-
-```json
-   {
-        "scripts": {
-            "telegram-bot-cli": "telegram-bot-cli"
-        }
-   }
-```
-
-And use
-
-```bash
-composer telegram-bot-cli command [arguments]
-```
-
 ## Global installation
 
 ```bash
