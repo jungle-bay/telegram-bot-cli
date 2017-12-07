@@ -24,11 +24,9 @@ Or add a tag to the ```composer.json``` project file in telegram-bot-cli scripts
 
 ```json
    {
-        ...
         "scripts": {
             "telegram-bot-cli": "telegram-bot-cli"
-        },
-        ...
+        }
    }
 ```
 
