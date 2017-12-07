@@ -1,16 +1,68 @@
 # Guide for Telegram Bot CLI
 
-### Prerequisites
+**If two methods of use:**
+* **[local installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#2-localinstallation)**;
+* **[global installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#3-globalinstallation)**.
 
-   - Add a tag to the ```composer.json``` file in telegram-bot-cli scripts.
+### Install
 
-Example:
+The recommended way to install is through [Composer](https://getcomposer.org/doc/00-intro.md).
+
+## Local installation
+
+```bash
+composer require --dev jungle-bay/telegram-bot-cli
+```
+
+Use
+
+```bash
+php ./vendor/bin/telegram-bot-cli command [arguments]
+```
+
+Or add a tag to the ```composer.json``` project file in telegram-bot-cli scripts.
+
 ```json
    {
+        ...
         "scripts": {
             "telegram-bot-cli": "telegram-bot-cli"
-        }
+        },
+        ...
    }
+```
+
+And use
+
+```bash
+composer telegram-bot-cli command [arguments]
+```
+
+## Global installation
+
+```bash
+composer global require jungle-bay/telegram-bot-cli
+```
+
+> This will install TelegramBotCLI and all its dependencies into the ~/.composer/vendor/ directory and,  <br />
+> most importantly, the telegram-bot-cli CLI tools are installed into ~/.composer/vendor/bin/.
+
+Simply add this directory to your PATH in your like this:
+
+```bash
+export PATH=~/.composer/vendor/bin:$PATH
+```
+
+And telegram-bot-cli is now available on your command line:
+
+```bash
+telegram-bot-cli command [arguments]
+```
+
+To keep your tools up to date, you simply do this:
+ 
+```bash
+composer global update
 ```
 
 **Happy coding and cool bots!**
