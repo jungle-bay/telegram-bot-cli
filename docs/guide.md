@@ -1,8 +1,8 @@
 # Guide for Telegram Bot CLI
 
 **If two methods of use:**
-* **[local installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#2-localinstallation)**;
-* **[global installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#3-globalinstallation)**.
+* **[local installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#local-installation)**;
+* **[global installation](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md#global-installation)**.
 
 ### Install
 
