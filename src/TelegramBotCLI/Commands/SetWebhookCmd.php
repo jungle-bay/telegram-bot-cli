@@ -13,7 +13,6 @@ namespace TelegramBotCLI\Commands;
 
 use TelegramBotAPI\TelegramBotAPI;
 use TelegramBotAPI\Types\InputFile;
-use TelegramBotAPI\Exception\TelegramBotAPIException;
 use TelegramBotAPI\Exception\TelegramBotAPIRuntimeException;
 
 /**
@@ -103,8 +102,6 @@ class SetWebhookCmd extends Command {
             $climate->yellow($message);
 
         } catch (TelegramBotAPIRuntimeException $exception) {
-            $this->printException($exception);
-        } catch (TelegramBotAPIException $exception) {
             $this->printException($exception);
         }
     }
