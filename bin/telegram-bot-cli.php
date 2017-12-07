@@ -10,7 +10,12 @@
 
 if (!ini_get('date.timezone')) date_default_timezone_set('UTC');
 
-require_once(__DIR__ . '/../vendor/autoload.php');
+$autoloadFiles = array(
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php'
+);
+
+foreach ($autoloadFiles as $autoloadFile) if (true === file_exists($autoloadFile)) require_once($autoloadFile);
 
 $tbc = new \TelegramBotCLI\TelegramBotCLI();
 
