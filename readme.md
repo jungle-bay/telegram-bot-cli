@@ -6,8 +6,8 @@
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/cd33ddb0-5bd7-4025-a584-7e4dc36242b7.svg?style=flat)](https://insight.sensiolabs.com/projects/cd33ddb0-5bd7-4025-a584-7e4dc36242b7)
 
 This is CLI Utility for Telegram Bot. <br />
-I decided not to include this package in the [main](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
-   
+I decided not to include this package in the main [Telegram Bot API](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
+
 ### Install
 
 The recommended way to install is through [Composer](https://getcomposer.org):
