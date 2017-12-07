@@ -22,11 +22,11 @@
         "issues": "https://github.com/jungle-bay/telegram-bot-cli/issues/"
     },
     "require": {
-        "jungle-bay/telegram-bot-api": "^3.4.1",
+        "jungle-bay/telegram-bot-api": "^3.5",
         "league/climate": "^3.2.1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8"
+        "phpunit/phpunit": "^4.8.36"
     },
     "bin": [
         "bin/telegram-bot-cli"
