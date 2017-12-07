@@ -43,13 +43,15 @@ class GetWebhookInfoCmd extends Command {
 
         $climate = $this->getClimate();
 
-        $climate->info('Get webhook info')->br();
-
         try {
 
             $token = $climate->arguments->get('token');
 
             $tba = new TelegramBotAPI($token);
+
+            $bot = $tba->getMe();
+
+            $climate->info('Get webhook info for ' . $bot->getUsername())->br();
 
             $webhookInfo = $tba->getWebhookInfo();
 

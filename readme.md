@@ -7,19 +7,6 @@
 
 This is CLI Utility for Telegram Bot. <br />
 I decided not to include this package in the [main](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
-
-### Prerequisites
-
-   - Add a tag to the ```composer.json``` file in telegram-bot-cli scripts.
-
-Example:
-```json
-   {
-        "scripts": {
-            "telegram-bot-cli": "telegram-bot-cli"
-        }
-   }
-```
    
 ### Install
 
@@ -32,7 +19,15 @@ composer require --dev jungle-bay/telegram-bot-cli
 ### The simplest example of use
 
 ```bash
-composer telegram-bot-cli getWebhookInfo -t 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
+php ./vendor/bin/telegram-bot-cli getWebhookInfo -t 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11
+```
+
+```
+Get webhook info for %botname%
+
+URL                                    ""
+Has custom certificate                 false
+Pending update count                   0
 ```
 
 ### Docs
