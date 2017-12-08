@@ -26,16 +26,16 @@ php ./vendor/bin/telegram-bot-cli command [arguments]
 composer global require jungle-bay/telegram-bot-cli
 ```
 
-> This will install TelegramBotCLI and all its dependencies into the ~/.composer/vendor/ directory and,  <br />
-> most importantly, the telegram-bot-cli CLI tools are installed into ~/.composer/vendor/bin/.
+> This will install TelegramBotCLI and all its dependencies into the ```~/.composer/vendor/``` directory and,  <br />
+> most importantly, the telegram-bot-cli CLI tools are installed into ```~/.composer/vendor/bin/```.
 
-Simply add this directory to your PATH in your like this:
+Simply add this directory to your ```PATH``` in your like this:
 
 ```bash
 export PATH=~/.composer/vendor/bin:$PATH
 ```
 
-And telegram-bot-cli is now available on your command line:
+And ```telegram-bot-cli``` is now available on your command line:
 
 ```bash
 telegram-bot-cli command [arguments]
