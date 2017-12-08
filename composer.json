@@ -22,7 +22,7 @@
         "issues": "https://github.com/jungle-bay/telegram-bot-cli/issues/"
     },
     "require": {
-        "jungle-bay/telegram-bot-api": "^3.5",
+        "jungle-bay/telegram-bot-api": "^3.5.1",
         "league/climate": "^3.2.1"
     },
     "require-dev": {
