@@ -27,6 +27,7 @@ class GetUpdatesCmd extends Command {
     /**
      * @param CLImate $climate
      * @param TelegramBotAPI $tba
+     * @throws TelegramBotAPIException
      * @throws TelegramBotAPIRuntimeException
      */
     private function deleteWebHook(CLImate $climate, TelegramBotAPI $tba) {
@@ -37,7 +38,7 @@ class GetUpdatesCmd extends Command {
 
             $tba->deleteWebhook();
 
-            $climate->red('Webhook delete.');
+            $climate->red('Webhook was removed.');
 
         } else {
 
