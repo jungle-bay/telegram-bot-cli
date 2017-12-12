@@ -76,7 +76,7 @@ class GetUpdatesCmd extends Command {
         curl_exec($ch);
         $codeError = curl_errno($ch);
 
-        if ($codeError !== 0) throw new TelegramBotAPIRuntimeException(curl_error($ch), $codeError);
+        if (0 !== $codeError) throw new TelegramBotAPIRuntimeException(curl_error($ch), $codeError);
 
         curl_close($ch);
     }
