@@ -10,7 +10,7 @@
 [![Scrutinizer CI](https://img.shields.io/scrutinizer/g/jungle-bay/telegram-bot-cli.svg?style=flat)](https://scrutinizer-ci.com/g/jungle-bay/telegram-bot-cli)
 [![Codecov](https://img.shields.io/codecov/c/github/jungle-bay/telegram-bot-cli.svg?style=flat)](https://codecov.io/gh/jungle-bay/telegram-bot-cli)
 
-This is PHP CLI Utility for Telegram Bot. <br />
+This is PHP CLI Utility for [Telegram Bot](https://core.telegram.org/bots). <br />
 I decided not to include this package in the main [Telegram Bot API](https://github.com/jungle-bay/telegram-bot-api) library, as it is only needed for development!
 
 ### Install
