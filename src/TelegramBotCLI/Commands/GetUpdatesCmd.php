@@ -76,12 +76,7 @@ class GetUpdatesCmd extends Command {
         curl_exec($ch);
         $codeError = curl_errno($ch);
 
-        if ($codeError !== 0) {
-
-            $messageError = empty($message = curl_error($ch)) ? 'Fatal error' : $message;
-
-            throw new TelegramBotAPIRuntimeException($messageError, $codeError);
-        }
+        if ($codeError !== 0) throw new TelegramBotAPIRuntimeException(curl_error($ch), $codeError);
 
         curl_close($ch);
     }
@@ -209,6 +204,6 @@ class GetUpdatesCmd extends Command {
      * @return string
      */
     public static function getDescription() {
-        return 'Use this method to receive incoming updates using long polling. <yellow>Simulate webhook for localhost.</yellow>';
+        return 'Get array updates and send one update to local server. <yellow>Simulate webhook for localhost.</yellow>';
     }
 }
