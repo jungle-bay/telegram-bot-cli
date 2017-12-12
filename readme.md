@@ -41,6 +41,10 @@ Pending update count                   %integer%
 
 See the complete docs in [here](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/readme.md).
 
+### Note
+
+The basis for your bot can use [Telegram Bot Platform](https://github.com/jungle-bay/telegram-bot-platform).
+
 ### License
 
 This bundle is under the [MIT license](http://opensource.org/licenses/MIT). See the complete license in the file: [here](https://github.com/jungle-bay/telegram-bot-cli/blob/master/license.txt).
