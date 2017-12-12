@@ -6,7 +6,7 @@
 
 ### Install
 
-The recommended way to install is through [Composer](https://getcomposer.org/doc/00-intro.md).
+The recommended way to install is through [Composer](https://getcomposer.org/doc/00-intro.md#introduction).
 
 ## Local installation
 

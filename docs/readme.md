@@ -1,6 +1,6 @@
 # Docs for Telegram Bot CLI
 
-This is Command Line Interface Utility for Telegram Bot. <br />
+This is Command Line Interface Utility for [Telegram Bot](https://core.telegram.org/bots). <br />
 The CLI is designed to simplify the development and monitoring of the [webhook](https://core.telegram.org/bots/api#making-requests-when-getting-updates) state of the bot.
 
 * **[Getting Started guide](https://github.com/jungle-bay/telegram-bot-cli/blob/master/docs/guide.md)**
